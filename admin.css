@@ -1,0 +1,57 @@
+#para{
+  font-weight: bold;
+  font-size: 50px;
+  color: #185dd6;
+  text-align:center;
+}
+.adminform{
+  margin:0 auto;
+  padding: 5%;
+  width: 30%;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 15px #185dd6;
+  border-radius: 15px;
+  min-width: 250px;
+  background: #fff;
+}
+#sub{
+  margin: 0 auto;
+  text-align:center;
+  padding:5px;
+  margin-top:20%;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+#sub:hover{
+  background-color: #185dd6;
+  color: #fff;
+}
+#pass:focus{
+  color: #000;
+}
+#user:focus{
+  color: #000;
+}
+#pass{
+  margin-top:20%;
+  font-size: 17px;
+  width:100%;
+  display:inline;
+}
+#user{
+  margin-top:5%;
+  font-size: 17px;
+  width:100%;
+}
+.eye{
+  position:relative;
+  left:90%;
+  bottom:20px;
+  cursor: pointer;
+  display:inline;
+}
+.adminform form div .passeye{
+  display:inline;
+}

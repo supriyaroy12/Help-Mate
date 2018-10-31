@@ -1,0 +1,189 @@
+*{
+  font-family: "roboto",sans;
+}
+body ,html{
+  margin: 0;
+  height: 100%;
+}
+.bg{
+  background-image: url("head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height: 100%;
+  overflow:hidden;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #696969;
+  position: fixed;
+  top:0;
+  width: 100%;
+  opacity: 0.7;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:not(:last-child) {
+  width:15%;
+  margin: 0 auto;
+}
+
+.topnav a:hover {
+  background-color: #c0c0c0;
+  color: #000;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav{
+    opacity: 1;
+  }
+  .sub{
+    display:none;
+  }
+  .bg{
+    background-size: cover;
+    margin: 0;
+    height: 400px;
+  }
+  .logo{
+    width:200px;
+    margin:0 auto;
+    margin-top: 10%;
+    padding-top: 20%;
+    text-align: center;
+  }
+  #head{
+    font-size:40px;
+  }
+  .topnav a:not(:last-child) {
+    width:30%;
+    margin: 0 auto;
+  }
+  .con{
+    text-align: center;
+  }
+
+  #help{
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .big_contain .contain_mum{
+    width:100%;
+  }
+  .big_contain .contain_nav{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav{
+    margin:0;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.header{
+    width:40%;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+}
+#shim{
+  border-width: 5px;
+  border-top:0;
+}
+#head{
+  font-size: 40px;
+  font-weight: 500;
+}
+#subhead{
+  font-size: 35px;
+}
+.sub{
+  margin:0 auto;
+  width:78%;
+}
+.logo{
+  width:20%;
+  margin:0 auto;
+  padding-top: 15%;
+  text-align: center;
+}
+#help{
+  font-size: 35px;
+  font-weight: 400;
+}
+#heading{
+  text-align: center;
+  font-size: 50px;
+  margin-top:6%;
+}
+#abtpara{
+  font-size: 25px;
+  padding:20px;
+}
+.contain_mum{
+  width:20%;
+  display: inline;
+}
+.con{
+  text-align: center;
+  margin-top:5%;
+}
+#cont{
+  font-size: 35px;
+}
+.card{
+  text-align: center;
+}
+.card-header{
+  font-size: 25px;
+}
+.card-footer{
+  font-size: 20px;
+}
+.big_contain{
+  display: inline;
+}
+.contain_nav{
+width:20%;
+margin:0 auto;
+margin-top:100px;
+display: inline;
+}
+.abt{
+  padding: 2%;
+}
+.contain_nav .container{
+  margin-top: 60px;
+}
